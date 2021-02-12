@@ -1,0 +1,33 @@
+.containerBio {
+    display: flex;
+
+}
+
+.bio__foto {
+    margin-left: 30px;
+    ;
+}
+
+.bio__titulo {
+    color: white;
+    margin-left: 700px;
+    flex-direction: column;
+    font-size: 30px;
+    height: 5%;
+    position: absolute;
+    margin-bottom: 20px;
+
+}
+
+.bio__info {
+    margin-top: 25px;
+    font-size: 15px;
+    text-align: center;
+    color: whitesmoke;
+    padding: 30px;
+    margin-right: 60px;
+    flex-direction: column;
+    position: absolute;
+    
+
+}
