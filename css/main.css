@@ -172,5 +172,6 @@ body {
   flex-direction: column;
   position: absolute; }
 
-.container {
-  color: white; }
+form {
+  color: white;
+  margin: auto; }
