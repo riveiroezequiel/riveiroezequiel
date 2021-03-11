@@ -1,5 +1,5 @@
 body {
-    background-color: #02030f;
+    background-color: #070213;
 }
 
 .bg {
@@ -10,36 +10,68 @@ body {
     margin-bottom: 10px;
 }
 
+
+
 .ultimasMezclas__Cartas {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
+    flex-direction: row;
     flex-wrap: wrap;
+    align-content: center;
+    
 }
 
 .ultimasMezclas h2 {
     color: #ffffff;
+    text-decoration: underline;
 }
 
 .card {
-    width: 500px;
+    width: 400px;
     margin: 10px;
     color: black;
+    height: 90%;
+
+}
+
+.cartelSlogan {
+    display: flex;
+    justify-content: center;
+    
+    
+}
+
+.slogan {
+    position: absolute;
+    top: 300px;
+    color: white;
+    border: 3px solid white;
+    padding: 50px;
+    font-size: 80px;
+    text-transform: uppercase;
+    background-color: rgba(46, 43, 78, 0.466);
 }
 
 .bottom-left {
     position: absolute;
-    top: 150px;
-    left: 20px;
+    top: 110px;
     color: white;
-    font-size: 16px;
+    font-size: 18px;
+    
+    background-color: rgba(49, 49, 83, 0.466);
+padding: 10px;
+border-bottom: 0.5px solid rgb(255, 255, 255);
 }
 
 .bottom-left2 {
     position: absolute;
-    top: 170px;
-    left: 20px;
+    top: 165px;
     color: white;
-    font-size: 16px;
+    font-size: 18px;
+    
+    background-color: rgba(49, 49, 83, 0.466);
+    padding: 10px;
+    border-bottom: 1px solid rgb(255, 255, 255);
 }
 
 .fa {
@@ -53,4 +85,3 @@ body {
 .fa:hover {
     opacity: 0.7;
 }
-

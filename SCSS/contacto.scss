@@ -5,4 +5,23 @@ form {
     
 }
 
+.contacto {
+display: flex;
+flex-direction: row;
+padding-left: 8rem;
+padding-top: 1rem;
+margin: auto;
+}
+
+.textoContacto {display: flex;
+    flex-direction: column;
+    color: whitesmoke;
+    padding-right: 12rem;
+    padding-top: 1rem;
+    
+}
+
+.comunicateCon {text-decoration: underline;}
+
+
 

@@ -10,20 +10,21 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
     <link rel="stylesheet" href="css/main.css">
     <title>Izhikiel | Sitio Oficial</title>
-    <meta-name="description=" content= "DJ Izhikiel, productor de musica electrónica, orientado al techno melodico, Buenos Aires, Argentina"></meta-name> 
-    <meta name="keywords"  content="DJ, Producer, Progressive, Argentina, Techno, Izhikiel">
+    <meta-name="description="
+        content="DJ Izhikiel, productor de musica electrónica, orientado al techno melodico, Buenos Aires, Argentina">
+        </meta-name>
+        <meta name="keywords" content="DJ, Producer, Progressive, Argentina, Techno, Izhikiel">
 </head>
 
 <body>
     <!-- header con el navbar -->
     <header>
-        <section class="navigation-wrap bg-dark start-header start-style">
+        <section class="navigation-wrap bg- start-header start-style">
             <article class="container">
                 <article class="row">
                     <article class="col-12">
                         <nav class="navbar navbar-expand-md navbar-dark navegador">
-                            <a class="navbar-brand" href="index.html">Izhikiel</a>
-
+                            <img id="logo1" src="img/izhikiel.png" alt="izhikiel">
                             <button class="navbar-toggler" type="button" data-toggle="collapse"
                                 data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
                                 aria-expanded="false" aria-label="Toggle navigation">
@@ -33,6 +34,8 @@
                             <article class="collapse navbar-collapse navegador__enlace" id="navbarSupportedContent">
                                 <ul class="navbar-nav ml-auto py-4 py-md-0">
                                     <li class="nav-item pl-4 pl-md-0 ml-0 ml-md-4">
+                                        <a class="nav-link" href="../index.html">Inicio</a>
+                                    <li class="nav-item pl-4 pl-md-0 ml-0 ml-md-4">
                                         <a class="nav-link" href="htmls/bio.html">Bio</a>
                                     </li>
                                     <li class="nav-item pl-4 pl-md-0 ml-0 ml-md-4">
@@ -40,6 +43,9 @@
                                     </li>
                                     <li class="nav-item pl-4 pl-md-0 ml-0 ml-md-4">
                                         <a class="nav-link" href="htmls/musica.html">Musica</a>
+                                    </li>
+                                    <li class="nav-item pl-4 pl-md-0 ml-0 ml-md-4">
+                                        <a class="nav-link" href="htmls/tour.html">Tour</a>
                                     </li>
                                 </ul>
                             </article>
@@ -49,11 +55,11 @@
         </section>
     </header>
     <!-- fondo -->
-    <div class="bg"> 
+    <div class="bg">
     </div>
-
-    <div class="bottom-left">Bienvenidos al sitio del DJ/Productor Izhikiel</div>
-    <div class="bottom-left2">debajo encontrarán toda la información sobre sets en vivo y redes sociales.</div>
+    <section class="cartelSlogan">
+        <h3 class="slogan">Un sonido único</h3>
+    </section>
     <main>
         <!-- section de ultimas mezclas -->
         <section class="container ultimasMezclas">
@@ -94,25 +100,78 @@
                         <a href="https://www.mixcloud.com/riveiroezequiel/" class="btn btn-outline-danger">Seguime en
                             MixCloud!</a>
                     </article>
+
+
                 </article>
+
+                <article class="card">
+                    <iframe height="120"
+                        src="https://www.mixcloud.com/widget/iframe/?hide_cover=1&light=1&feed=%2Friveiroezequiel%2F3105-astral-mix-1%2F"
+                        frameborder="0"></iframe>
+                    <article class="card-body">
+                        <h4 class="card-title">31 de Mayo 2020</h4>
+                        <p class="card-text">Podcast - Progressive 2hs</p>
+                        <a href="https://www.mixcloud.com/riveiroezequiel/" class="btn btn-outline-danger">Seguime
+                            en
+                            MixCloud!</a>
+                    </article>
             </section>
 
         </section>
     </main>
-    
-    <h3 class="redesTitulo">Redes sociales</h3>
-    <footer class="redesSociales">
-        
-        <article class="redesSociales__linksRedes">
-            <link rel="stylesheet"
-                href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-            <a href="https://www.facebook.com/Izhikiel/" class="fa fa-facebook"></a>
-            <a href="https://www.instagram.com/riveiroeze/" class="fa fa-instagram"></a>
-            <a href="https://soundcloud.com/izhikiel" class="fa fa-soundcloud"></a>
-            <a href="https://www.mixcloud.com/riveiroezequiel/" class="fa fa-mixcloud"></a>
-        </article>
+    <hr>
+
+    <footer class="site-footer">
+        <div class="container">
+            <div class="row">
+
+
+
+                <div class="col-xs-6 col-md-3 col-xl-12">
+                    <h6>Enlaces directos</h6>
+                    <ul class="footer-links">
+                        <img class="logo" src="img/izhikiel.png" alt="izhikiel">
+                        <li><a href="index.html">Inicio</a></li>
+                        <li><a href="htmls/bio.html">Biografia</a></li>
+                        <li><a href="htmls/contacto.html">Contacto</a></li>
+                        <li><a href="htmls/musica.html">Musica</a></li>
+                        <li><a href="htmls/tour.html">Tour</a></li>
+                    </ul>
+                </div>
+            </div>
+            <hr>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-8 col-sm-6 col-xs-12">
 
     </footer>
+
+    <section class="redeSociales">
+        <div class="row">
+            <div class="col-xs-12 col-sm-12 col-md-12 mt-2 mt-sm-5">
+                <h5 class="tituloRedes">Redes Sociales</h5>
+                <ul class="list-unstyled list-inline social text-center">
+                    <li class="list-inline-item"><a href="https://www.facebook.com/Izhikiel"><i
+                                class="fa fa-facebook"></i></a></li>
+                    <li class="list-inline-item"><a href="https://www.instagram.com/riveiroeze/"><i
+                                class="fa fa-instagram"></i></a></li>
+                    <li class="list-inline-item"><a href="https://www.mixcloud.com/riveiroezequiel/"><i
+                                class="fa fa-mixcloud"></i></a></li>
+                    <li class="list-inline-item"><a href="https://soundcloud.com/izhikiel"><i
+                                class="fa fa-soundcloud"></i></a></li>
+                </ul>
+            </div>
+            <hr>
+        </div>
+        <div class="row">
+            <div class="col-xs-12 col-sm-12 col-md-12 mt-2 mt-sm-2 text-center text-white">
+                <p class="h6">Creado por Ferreyra Riveiro Ezequiel © Todos los derechos reservados.<a
+                        class="text-green ml-2" href="index.html">Izhikiel</a></p>
+            </div>
+            <hr>
+        </div>
+    </section>
 
 
 

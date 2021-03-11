@@ -1,13 +1,17 @@
+@import url("https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css");
 .navigation-wrap {
-  position: fixed;
+  position: absolute;
   top: 0;
   left: 0;
   width: 100%;
-  z-index: 100; }
+  z-index: 100;
+  height: 16%;
+  background: linear-gradient(rgba(23, 21, 36, 0.658), #04010e);
+  border-bottom: 2px solid rgba(0, 0, 0, 0.377); }
 
 .navbar-brand {
   text-decoration: underline;
-  text-decoration-color: #e9e8ff;
+  text-decoration-color: white;
   margin: auto;
   padding: auto;
   font-size: 30px; }
@@ -54,14 +58,14 @@
   border-color: transparent; }
 
 .nav-link {
-  color: #e4eafa;
+  color: #ffffff;
   font-weight: 500; }
 
 .nav-item:hover .nav-link {
   color: #ffffff; }
 
 .nav-item.active .nav-link {
-  color: #777; }
+  color: #e7e7e7; }
 
 .nav-link {
   position: relative;
@@ -90,19 +94,69 @@
   position: relative;
   transition: all 200ms linear; }
 
-.redesSociales {
+#logo1 {
+  width: 8%; }
+
+.site-footer {
+  background-color: #110f20;
+  padding-top: 35px;
+  font-size: 15px;
+  line-height: 24px;
+  color: #ffffff;
+  margin: 0;
+  width: 100%;
+  text-align: center; }
+
+.site-footer hr {
+  border-top-color: #bbb;
+  opacity: 0.5; }
+
+.site-footer hr.small {
+  margin: 20px 0; }
+
+.site-footer h6 {
+  color: #fff;
+  font-size: 16px;
+  text-transform: uppercase;
+  margin-top: 5px;
+  letter-spacing: 2px; }
+
+.site-footer a {
+  color: #ffffff; }
+
+.site-footer a:hover {
+  color: #3366cc;
+  text-decoration: none; }
+
+.footer-links {
+  padding-left: 0;
+  list-style: none; }
+
+.footer-links a {
+  color: #fffefe; }
+
+.footer-links a:hover {
+  color: #3366cc;
+  text-decoration: none; }
+
+/* Footer */
+.redeSociales {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: #110f20; }
+
+.tituloRedes {
   display: flex;
   justify-content: center;
-  align-items: center; }
-  .redesSociales .redesSociales__linksRedes {
-    margin-top: 5px; }
+  color: white;
+  padding: 10px; }
 
-.redesTitulo {
-  text-align: center;
-  color: white; }
+.logo {
+  width: 150px; }
 
 body {
-  background-color: #02030f; }
+  background-color: #070213; }
 
 .bg {
   background-image: url(../img/background3.jpg);
@@ -113,30 +167,52 @@ body {
 
 .ultimasMezclas__Cartas {
   display: flex;
-  justify-content: space-around;
-  flex-wrap: wrap; }
+  justify-content: space-evenly;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-content: center; }
 
 .ultimasMezclas h2 {
-  color: #ffffff; }
+  color: #ffffff;
+  text-decoration: underline; }
 
 .card {
-  width: 500px;
+  width: 400px;
   margin: 10px;
-  color: black; }
+  color: black;
+  height: 90%; }
+
+.cartelSlogan {
+  display: flex;
+  justify-content: center; }
+
+.slogan {
+  position: absolute;
+  top: 300px;
+  color: white;
+  border: 3px solid white;
+  padding: 50px;
+  font-size: 80px;
+  text-transform: uppercase;
+  background-color: rgba(46, 43, 78, 0.466); }
 
 .bottom-left {
   position: absolute;
-  top: 150px;
-  left: 20px;
+  top: 110px;
   color: white;
-  font-size: 16px; }
+  font-size: 18px;
+  background-color: rgba(49, 49, 83, 0.466);
+  padding: 10px;
+  border-bottom: 0.5px solid white; }
 
 .bottom-left2 {
   position: absolute;
-  top: 170px;
-  left: 20px;
+  top: 165px;
   color: white;
-  font-size: 16px; }
+  font-size: 18px;
+  background-color: rgba(49, 49, 83, 0.466);
+  padding: 10px;
+  border-bottom: 1px solid white; }
 
 .fa {
   font-size: 30px;
@@ -148,18 +224,25 @@ body {
   opacity: 0.7; }
 
 .containerBio {
-  display: flex; }
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  max-width: 85%;
+  margin: auto;
+  flex-direction: row; }
+
+.bio__contenedor2 {
+  display: flex;
+  flex-direction: column;
+  padding: 2rem; }
 
 .bio__foto {
-  margin-left: 30px; }
+  align-self: flex-start; }
 
 .bio__titulo {
   color: white;
-  margin-left: 700px;
-  flex-direction: column;
   font-size: 30px;
-  height: 5%;
-  position: absolute;
   margin-bottom: 20px; }
 
 .bio__info {
@@ -167,11 +250,44 @@ body {
   font-size: 15px;
   text-align: center;
   color: whitesmoke;
-  padding: 30px;
-  margin-right: 60px;
-  flex-direction: column;
-  position: absolute; }
+  padding: 30px; }
+
+.bio__info2 {
+  margin-top: 10px;
+  font-size: 15px;
+  text-align: center;
+  color: whitesmoke;
+  padding: 30px; }
 
 form {
   color: white;
   margin: auto; }
+
+.contacto {
+  display: flex;
+  flex-direction: row;
+  padding-left: 8rem;
+  padding-top: 1rem;
+  margin: auto; }
+
+.textoContacto {
+  display: flex;
+  flex-direction: column;
+  color: whitesmoke;
+  padding-right: 12rem;
+  padding-top: 1rem; }
+
+.comunicateCon {
+  text-decoration: underline; }
+
+.soundcloud {
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+
+.Original {
+  text-decoration: underline;
+  color: white;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  padding-left: 5rem; }
