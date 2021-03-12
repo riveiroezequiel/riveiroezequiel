@@ -8,6 +8,8 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="../css/main.css">
     <meta-name="description="
         content="DJ Izhikiel, productor de musica electrónica, contacto y contrataciones, consultas, Buenos Aires, Argentina">
@@ -61,88 +63,92 @@
     <section class="cartelSlogan">
         <h3 class="slogan">Un sonido único</h3>
     </section>
-<main class="contacto">
+    <main class="contacto">
         <div class="container">
-        <div class="row">
-            <div class="col-xs-12 col-sm-12 col-md-8 col-lg-6  column col-sm-offset-0 col-md-offset-2 col-lg-offset-3">
-                <form class="form-horizontal">
-                    <fieldset>
+            <div class="row">
+                <div
+                    class="col-xs-12 col-sm-12 col-md-8 col-lg-6  column col-sm-offset-0 col-md-offset-2 col-lg-offset-3">
+                    <form class="form-horizontal">
+                        <fieldset>
 
-                        <!-- Form Name -->
-                        <legend>Contacto-Contrataciones</legend>
-                        <!-- Select Basic -->
-                        <div class="form-group">
-                            <label class="col-md-3 control-label" for="selectbasic">Selecccioná</label>
-                            <div class="col-md-9 col-xl-12">
-                                <select id="selectbasic" name="selectbasic" class="form-control">
-                                    <option value="1">Contacto</option>
-                                    <option value="2">Contratación</option>
-                                    <option value="3">Co-Producción</option>
-                                    <option value="4">Producción original</option>
-                                </select>
-                            </div>
-                        </div>
-
-
-                        <!-- Text input-->
-                        <div class="form-group">
-                            <label class="col-md-3 control-label" for="textinput">Nombre completo</label>
-                            <div class="col-md-3 col-lg-6 col-xl-12">
-                                <input id="textinput" name="textinput" type="text" class="form-control input-md">
+                            <!-- Form Name -->
+                            <legend>Contacto-Contrataciones</legend>
+                            <!-- Select Basic -->
+                            <div class="form-group">
+                                <label class="col-md-3 control-label" for="selectbasic">Selecccioná</label>
+                                <div class="col-md-9 col-xl-12">
+                                    <select id="selectbasic" name="selectbasic" class="form-control">
+                                        <option value="1">Contacto</option>
+                                        <option value="2">Contratación</option>
+                                        <option value="3">Co-Producción</option>
+                                        <option value="4">Producción original</option>
+                                    </select>
+                                </div>
                             </div>
 
 
-                            <!-- Multiple Radios (inline) -->
-                        
-                            <label class="col-md-3 control-label" for="radios">Notificaciones</label>
-                            <div class="col-md-3 col-xl-12">
-                                <label class="radio-inline" for="radios-0">
-                                    <input type="radio" name="radios" id="radios-0" value="1" checked="checked">
-                                    Si
-                                </label>
-                                <label class="radio-inline" for="radios-1">
-                                    <input type="radio" name="radios" id="radios-1" value="2">
-                                    No
-                                </label>
-                            </div>
-                        </div>
-                    
-                        <!-- Textarea -->
-                        <div class="form-group">
-                            <label class="col-md-3 control-label " for="textarea">Mensaje</label>
-                            <div class="col-md-9 col-xl-12">
-                                <textarea class="form-control" id="textarea" name="textarea">Escribime!</textarea>
-                            </div>
-                        </div>
+                            <!-- Text input-->
+                            <div class="form-group">
+                                <label class="col-md-3 control-label" for="textinput">Nombre completo</label>
+                                <div class="col-md-3 col-lg-6 col-xl-12">
+                                    <input id="textinput" name="textinput" type="text" class="form-control input-md">
+                                </div>
 
-                        <!-- Button (Double) -->
-                        <div class="form-group">
-                            <label class="col-md-3 control-label" for="button1id"></label>
-                            <div class="col-md-8 col-xl-12">
-                                <button id="button1id" name="button1id" class="btn btn-success">Ok</button>
-                                <button id="button2id" name="button2id" class="btn btn-danger">Cancelar</button>
-                            </div>
-                        </div>
 
-                    </fieldset>
-                </form>
+                                <!-- Multiple Radios (inline) -->
+
+                                <label class="col-md-3 control-label" for="radios">Notificaciones</label>
+                                <div class="col-md-3 col-xl-12">
+                                    <label class="radio-inline" for="radios-0">
+                                        <input type="radio" name="radios" id="radios-0" value="1" checked="checked">
+                                        Si
+                                    </label>
+                                    <label class="radio-inline" for="radios-1">
+                                        <input type="radio" name="radios" id="radios-1" value="2">
+                                        No
+                                    </label>
+                                </div>
+                            </div>
+
+                            <!-- Textarea -->
+                            <div class="form-group">
+                                <label class="col-md-3 control-label " for="textarea">Mensaje</label>
+                                <div class="col-md-9 col-xl-12">
+                                    <textarea class="form-control" id="textarea" name="textarea">Escribime!</textarea>
+                                </div>
+                            </div>
+
+                            <!-- Button (Double) -->
+                            <div class="form-group">
+                                <label class="col-md-3 control-label" for="button1id"></label>
+                                <div class="col-md-8 col-xl-12">
+                                    <button id="button1id" name="button1id" class="btn btn-success">Ok</button>
+                                    <button id="button2id" name="button2id" class="btn btn-danger">Cancelar</button>
+                                </div>
+                            </div>
+
+                        </fieldset>
+                    </form>
+                </div>
+
             </div>
-
         </div>
-    </div>
-    <section class="textoContacto">
-    <h4 class="comunicateCon">Comunicate con Izhikiel!</h4>
-    <p>Para ampliar información, completa el formulario y consulta por sets en vivo, tour, producciones originales y en conjunto</p>
-</section>
-</main>
-<hr>
+        <section class="textoContacto">
+            <h4 class="comunicateCon">Comunicate con Izhikiel!</h4>
+            <p>Para ampliar información, completa el formulario y consulta por sets en vivo, tour, producciones
+                originales y en conjunto</p>
+        </section>
+    </main>
+    <hr>
     <footer class="site-footer">
+        <article class="enlacesTitulo">
+            <h5>Enlaces directos</h5>
+            <img class="logo" src="../img/izhikiel.png" alt="izhikiel">
+        </article>
         <div class="container">
             <div class="row">
                 <div class="col-xs-6 col-md-3 col-xl-12">
-                    <h6>Enlaces directos</h6>
                     <ul class="footer-links">
-                        <img class="logo" src="../img/izhikiel.png" alt="izhikiel">
                         <li><a href="../index.html">Inicio</a></li>
                         <li><a href="bio.html">Biografia</a></li>
                         <li><a href="contacto.html">Contacto</a></li>
@@ -156,34 +162,32 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-8 col-sm-6 col-xs-12">
-    </footer>
 
-    <section class="redeSociales">
-        <div class="row">
-            <div class="col-xs-12 col-sm-12 col-md-12 mt-2 mt-sm-5">
-                <h5 class="tituloRedes">Redes Sociales</h5>
-                <ul class="list-unstyled list-inline social text-center">
-                    <li class="list-inline-item"><a href="https://www.facebook.com/Izhikiel"><i
-                                class="fa fa-facebook"></i></a></li>
-                    <li class="list-inline-item"><a href="https://www.instagram.com/riveiroeze/"><i
-                                class="fa fa-instagram"></i></a></li>
-                    <li class="list-inline-item"><a href="https://www.mixcloud.com/riveiroezequiel/"><i
-                                class="fa fa-mixcloud"></i></a></li>
-                    <li class="list-inline-item"><a href="https://soundcloud.com/izhikiel"><i
-                                class="fa fa-soundcloud"></i></a></li>
-                </ul>
-            </div>
-            <hr>
-        </div>
-        <div class="row">
-            <div class="col-xs-12 col-sm-12 col-md-12 mt-2 mt-sm-2 text-center text-white">
-                <p class="h6">Creado por Ferreyra Riveiro Ezequiel © Todos los derechos reservados.<a
-                        class="text-green ml-2" href="contacto.html">Izhikiel</a></p>
-            </div>
-            <hr>
-        </div>
-    </section>
-
+                    <section class="redeSociales">
+                        <div class="row">
+                            <div class="col-xs-12 col-sm-12 col-md-12 mt-2 mt-sm-5">
+                                <h5 class="tituloRedes">Redes Sociales</h5>
+                                <ul class="list-unstyled list-inline social text-center">
+                                    <li class="list-inline-item"><a href="https://www.facebook.com/Izhikiel"><i
+                                                class="fa fa-facebook"></i></a></li>
+                                    <li class="list-inline-item"><a href="https://www.instagram.com/riveiroeze/"><i
+                                                class="fa fa-instagram"></i></a></li>
+                                    <li class="list-inline-item"><a href="https://www.mixcloud.com/riveiroezequiel/"><i
+                                                class="fa fa-mixcloud"></i></a></li>
+                                    <li class="list-inline-item"><a href="https://soundcloud.com/izhikiel"><i
+                                                class="fa fa-soundcloud"></i></a></li>
+                                </ul>
+                            </div>
+                            <hr>
+                        </div>
+                        <div class="row">
+                            <div class="col-xs-12 col-sm-12 col-md-12 mt-2 mt-sm-2 text-center text-white">
+                                <p class="derechos">Creado por Ferreyra Riveiro Ezequiel © Todos los derechos reservados.<a
+                                        class="text-green ml-2" href="contacto.html">Ir al TOP</a></p>
+                            </div>
+                            <hr>
+                        </div>
+                    </section>
 </body>
 
 </html>
