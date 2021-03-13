@@ -1,0 +1,124 @@
+@media only screen and (max-width: 639px) {
+    .redeSociales {
+        display: block;
+        padding: 0;
+    }
+
+    .footer-links {
+        padding: 0;
+        margin: auto;
+    }
+
+    .contacto {
+        padding: 0;
+        margin: auto;
+    }
+
+    .form-horizontal {
+        text-align: center;
+    }
+
+    .textoContacto {
+        padding: 0;
+    }
+
+    .navbar-toggler-icon {
+        border-bottom: 1px solid #ffffff !important;
+
+        &::after {
+            border: 1px solid #ffffff;
+        }
+
+        &::before {
+            border: 1px solid #ffffff;
+        }
+    }
+
+    .navegador__enlace {
+        background-color: rgba(7, 8, 43, 0.769);
+        width: fit-content;
+        border: 1px solid blue;
+        border-radius: 6px;
+        text-align: right;
+        padding-right: 1rem;
+
+        .nav-link {
+            color: white !important;
+        }
+
+    }
+
+
+}
+
+@media only screen and (min-width: 640px) {
+    .redeSociales {
+        display: block;
+        padding: 0;
+    }
+
+    .footer-links {
+        padding: 0;
+        margin: auto;
+    }
+
+    .bio__foto {
+        display: none;
+    }
+
+    .contacto {
+        padding: 0;
+        margin: auto;
+    }
+
+    .form-horizontal {
+        text-align: center;
+    }
+
+    .textoContacto {
+        padding: 0;
+    }
+
+    .navbar-toggler-icon {
+        border-bottom: 1px solid #ffffff !important;
+
+        &::after {
+            border: 1px solid #ffffff;
+        }
+
+        &::before {
+            border: 1px solid #ffffff;
+        }
+    }
+
+    .navegador__enlace {
+        background-color: rgba(7, 8, 43, 0.769);
+        width: fit-content;
+        border: 1px solid blue;
+        border-radius: 6px;
+        text-align: right;
+        padding-right: 1rem;
+
+        .nav-link {
+            color: white !important;
+        }
+
+    }
+
+
+}
+
+@media only screen and (min-width: 768px) {
+    .navegador__enlace {
+        background-color: #ffffff00;
+        border: none;
+        text-align: right;
+
+
+        .nav-link {
+            color: white !important;
+        }
+
+    }
+
+}
