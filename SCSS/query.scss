@@ -12,6 +12,7 @@
     .contacto {
         padding: 0;
         margin: auto;
+        
     }
 
     .form-horizontal {
@@ -20,6 +21,7 @@
 
     .textoContacto {
         padding: 0;
+        margin-left: 2rem;
     }
 
     .navbar-toggler-icon {
@@ -127,9 +129,9 @@
     }
 
     .textoContacto {
-        padding-right: 10rem;
         display: flex;
         align-content: center;
+        
 
     }
 
@@ -140,4 +142,8 @@
     legend {
         text-align: center;
     }
+}
+
+.footer-links {
+    padding-right: 20px;
 }

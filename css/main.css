@@ -130,7 +130,6 @@
   text-decoration: none; }
 
 .footer-links {
-  padding-left: 20rem;
   list-style: none;
   display: flex;
   flex-direction: row;
@@ -300,6 +299,10 @@ form {
 .comunicateCon {
   text-decoration: underline; }
 
+.fotoEgo {
+  max-height: 75%;
+  max-width: 80%; }
+
 .soundcloud {
   display: flex;
   justify-content: center;
@@ -329,7 +332,8 @@ form {
   .form-horizontal {
     text-align: center; }
   .textoContacto {
-    padding: 0; }
+    padding: 0;
+    margin-left: 2rem; }
   .navbar-toggler-icon {
     border-bottom: 1px solid #ffffff !important; }
     .navbar-toggler-icon::after {
@@ -388,10 +392,12 @@ form {
   .contacto {
     padding-left: 10rem; }
   .textoContacto {
-    padding-right: 10rem;
     display: flex;
     align-content: center; }
   .form-horizontal {
     text-align: left; }
   legend {
     text-align: center; } }
+
+.footer-links {
+  padding-right: 20px; }
